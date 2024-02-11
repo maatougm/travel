@@ -1,0 +1,47 @@
+.nav{
+  background-color: #176B87;
+  font-size: medium;
+  font-weight: bold;
+}
+.nav  img{
+  max-width: 150px;
+  max-height: 70px;
+}
+h2{
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  
+
+}
+.hero img{
+  padding: 1%;
+  border-radius: 50px;
+  max-height:750px; 
+}
+.hero{
+  background-color: #EEF5FF;
+}
+
+
+.destination {
+  background-color: #EEF5FF;}
+.tours {
+    background-color: #EEF5FF;}
+.us{
+  
+}
+.contact{
+  margin: 5%;
+  padding-top: 3%;
+  padding-right: 9%;
+  padding-left:9%;
+  
+}
+.main   { background-color: #EEF5FF;}
+footer{
+
+  background-color: #176B87;
+}

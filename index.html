@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Travel with us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/855500708082089994/1206229162411429959/image.png?ex=65db3f72&is=65c8ca72&hm=2556d7999b4ff98d47a49fae52e34e7021c9ac533ff217afb237567509404ac6&" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script >
+    import { Input, initMDB } from "mdb-ui-kit";
+    initMDB({ Input });</script>
+</head>
+  <div class="main">
+  <body >
+  <!-------------------navbar---------------------->
+  <nav class="navbar navbar-expand-lg nav ">
+    <div class="container-fluid">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206342500894380052/image-removebg-preview.png?ex=65dba900&is=65c93400&hm=da75821baf8b03994603017eb8ce1af848edb8604d5d796c78e95135049dc43d&" alt="">
+        <a href="#" class="navbar-brand">Odyssey Travel Co.</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#hero" class="nav-item nav-link  active" >Home</a>
+                <a href="#destination" class="nav-item nav-link active">Destination</a>
+                <a href="#tours" class="nav-item nav-link active">Tours</a>
+                <a href="#contact" class="nav-item nav-link active">Contact US</a>
+                
+            </div>
+            
+        </div>
+    </div>
+</nav>
+  <!-------------------hero---------------------->
+
+  
+  <div id="carouselExampleSlidesOnly" class="carousel slide hero" data-bs-ride="carousel">
+    <div class="carousel-inner" id="hero">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1616038242814-a6eac7845d88?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Prague, Czechia">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1610302271884-eb6e43c4ccf1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  " class="d-block w-100" alt=" Venice, Italy.">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1682685797498-3bad2c6e161a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " class="d-block w-100" alt="Saudi Arabia">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-------------------destination---------------------->
+  <div class="destination" id="destination">
+  <div  class="mx-3 p-3" >
+    <h2>Destination</h2>
+  <div class="row row-cols-1 row-cols-lg-3  row-cols-md-2 g-4 " id="destination">
+    <div class="col">
+      <div class="card ">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206239024558116864/premium_photo-1677829177642-30def98b0963.png?ex=65db48a2&is=65c8d3a2&hm=db6cf33d43dc06c0de77d238add95d81e3e039fd92f3a5ef5d3d00c37b0defd1&" class="card-img-top" alt="indonesia">
+        <div class="card-body">
+          <div class="row">
+          <h5 class="card-title col-8 ms-2 ">indonesia </h5>
+          <button type="button" class="btn btn-outline-info -sm col-3">More Info</button>
+          </div>
+          <p class="card-text">Explore Indonesia's diverse beauty, culture, and adventure on Indonesia Travel. Plan your journey to this tropical paradise.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206239454159708190/photo-1577550753140-f1189b1959eb.png?ex=65db4908&is=65c8d408&hm=eb0afaf11f607e7183e6760ccb3887883c99d828550d9cb4573db0ec8b26ede6&" class="card-img-top" alt="corea de sud">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title col-8 ms-2 ">south korea</h5>
+            <button type="button" class="btn btn-outline-info -sm col-3">Info</button>
+            </div>
+          <p class="card-text">From Seoul's glittering nightlife to Seoraksan National Park's vertiginous hikes, South Korea offers the traveler a dazzling range of experiences</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206239670317350962/photo-1602501560194-bd58bf42958e.png?ex=65db493c&is=65c8d43c&hm=2170dfbea13f3dedde4aabc81f8795ae13c54571ee97fcf8c8a38c577832e2a1&" class="card-img-top" alt="netherlands">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title col-8 ms-2 ">netherlands</h5>
+            <button type="button" class="btn btn-outline-info -sm col-3">Info</button>
+            </div>
+          <p class="card-text">From the many fascinating museums to the majestic old windmills, from the vibrant tulip fields to the glorious canals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/1005261417227759697/1206338016860446772/3840x2160-raouche-rocks-beirut-lebanon-sea-sunset-4k_1541117831_1_1.jpg?ex=65dba4d3&is=65c92fd3&hm=fade0d5bc73c78f9ff52e8ca87f43cac902b5d163708b0783ea9d66e5373ce73&" class="card-img-top" alt="lebanon ">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title col-8 ms-2 ">lebanon</h5>
+            <button type="button" class="btn btn-outline-info -sm col-3">Info</button>
+            </div>
+          <p class="card-text"> From Stone Age settlements to Phoenician city-states, from Roman temples to rock-cut hermitages, from Crusader Castles to Mamluk mosques and Ottoman hammams.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206241004483772446/photo-1513002277650-6deb8404a2cd.png?ex=65db4a7a&is=65c8d57a&hm=f424514d5ad8d376f32e780f9c41c6c87afe7beb404988bad6122f43ea8fa6d2&" class="card-img-top" alt="danmark">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title col-8 ms-2 ">danmark</h5>
+            <button type="button" class="btn btn-outline-info -sm col-3">Info</button>
+            </div>
+          <p class="card-text">We have so many great attractions, famous places and things to do in Denmark. Travel to Denmark to discover some of our best holiday destinations.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://cdn.discordapp.com/attachments/855500708082089994/1206241783420293160/photo-1483729558449-99ef09a8c325.png?ex=65db4b34&is=65c8d634&hm=709e5fb82e7af6da95eeb707d693ce5591535e277ee8ffb5450351f90762a19d&" class="card-img-top" alt="Brazil">
+        <div class="card-body">
+          <div class="row">
+            <h5 class="card-title col-8 ms-2 ">Brazil</h5>
+            <button type="button" class="btn btn-outline-info -sm col-3">Info</button>
+            </div>
+          <p class="card-text">With its unique cuisine, rich culture,all you have to do is choose the perfect type of tourism for you and be amazed by the wonders of Brazil.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <!-------------------tours---------------------->
+  <div class="tours" id="tours">
+  <h2>Our tours</h2>
+  <div class="accordion tours; mx-4 ; pb-5;" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Northern Lights Adventure: Chasing the Aurora Borealis in Iceland
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This 5-day adventure takes you to Iceland, a land of dramatic landscapes and the perfect place to witness the mesmerizing Northern Lights. Explore glaciers, waterfalls, and geothermal pools, and embark on nightly excursions to hunt for the aurora borealis.</strong> 
+        <p>Highlights: Go on a Northern Lights hunt, explore the Golden Circle, visit the Jokulsarlon glacier lagoon, soak in the Blue Lagoon geothermal spa, and experience the unique Icelandic culture.</p>
+        <p>Duration: 5 days
+          Travel style: Adventure, nature lover
+          Ideal for: Travelers seeking a unique and unforgettable experience in search of the Northern Lights</p>
+      </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Treasures of the Silk Road: A Journey Through Central Asia
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Embark on a 12-day exploration of the historic Silk Road, traveling through Uzbekistan, Kazakhstan, Kyrgyzstan, and Tajikistan. Immerse yourself in the region's fascinating history, marvel at its architectural wonders, and experience the warm hospitality of its people</strong>
+          <p>Highlights: Explore the ancient cities of Samarkand and Bukhara, visit the Tian Shan Mountains, trek through the Ala Archa National Park, learn about the traditional crafts and customs of the region, and enjoy delicious local cuisine.</p>
+          <p>Duration: 12 days
+            Travel style: Cultural immersion, history buff
+            Ideal for: Travelers interested in history, culture, and adventure</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Galapagos Islands: Unveiling the Secrets of Evolution
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This 7-day expedition takes you to the Galapagos Islands, a UNESCO World Heritage Site renowned for its unique wildlife and diverse ecosystems. Hike through volcanic landscapes, observe giant tortoises and marine iguanas in their natural habitat, and learn about the groundbreaking research that took place on these islands</strong>
+            <p>Highlights: Visit different islands with unique ecosystems, see a variety of endemic animals, go snorkeling and diving in crystal-clear waters, learn about the work of Charles Darwin, and contribute to conservation efforts.</p>
+            <p>Duration: 7 days
+              Travel style: Wildlife encounter, nature lover
+              Ideal for: Travelers interested in nature, wildlife, and conservation</p>
+          </div>
+      </div>
+    </div>
+    <!----------------------------------------------------------->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFoor" aria-expanded="false" aria-controls="collapseFoor">
+          The Mystical Mekong: Unveiling the Wonders of Southeast Asia
+        </button>
+      </h2>
+      <div id="collapseFoor" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This 10-day adventure takes you on a captivating journey through Vietnam, Cambodia, Laos, and Thailand, exploring the vibrant cultures, stunning landscapes, and ancient temples that line the mighty Mekong River.</strong> 
+          <p>Cruise down the Mekong River, visit the Angkor Wat temple complex, explore the floating markets of Siem Reap, trek through the lush jungles of Laos, and learn about the rich history and traditions of the region.</p>
+          <p>Duration: 10 days
+          Travel style: Adventure, cultural immersion
+          Ideal for: Travelers seeking a unique and immersive experience in Southeast Asia </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-------------------contact---------------------->
+<div class="us" id="contact">
+  <br>
+ <h2>for more information feel free to contact us</h2>
+ 
+ <form class="row  gy-3  gx-3 align-items-center contact">
+  <div class="col-4 ">
+    
+    <input type="text" class="form-control" id="autoSizingInput" placeholder="Name">
+  </div>
+  <div class="col-6 col-md-5">
+    <label class="visually-hidden" for="autoSizingInputGroup">Email</label>
+    <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Email">
+  </div>
+  <div class="col-3">
+    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>Choose your destination</option>
+      <option value="1">Indonesia</option>
+      <option value="2">corée de sud</option>
+      <option value="3">Netherlands</option>
+      <option value="4">Lebanon </option>
+      <option value="5">Denmark</option>
+      <option value="6">Brazil</option>
+
+    </select>
+  </div>
+
+  <div class="col-6">
+ <textarea class="form-control" placeholder="Leave a comment here" id></textarea>
+  </div>
+  <div class="col-3">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</div>
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center ;footer;">
+  <!-- Grid container -->
+  <div class="container p-2 pb-0";style="background-color: rgba(180, 212, 255, 1)"; >
+    <!-- Section: Social media -->
+    <section class="mb-3">
+      <!-- Facebook -->
+      <a
+      data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 pt-0" ;style="background-color: rgba(180, 212, 255, 1)";>
+    © 2024 Copyright M.maatoug
+    
+  </div>
+</div>
+  <!-- Copyright -->
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </div>
+  </body>
+
+</html>
